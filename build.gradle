@@ -1,0 +1,9 @@
+buildscript {
+  repositories {
+    jcenter()
+  }
+}
+ 
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = 'aja.jp.percuma.TestMain'
