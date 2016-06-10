@@ -7,3 +7,7 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'application'
 mainClassName = 'aja.jp.percuma.TestMain'
+
+dependencies {
+  compile project(':percuma-libs')
+}
