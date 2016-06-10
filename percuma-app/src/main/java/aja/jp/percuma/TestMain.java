@@ -1,7 +1,9 @@
 package aja.jp.percuma;
+
+import aja.jp.percuma.lib.PrintLib;
  
 class TestMain {
   public static void main (String ... args) {
-    java.util.logging.Logger.getLogger(TestMain.class.getName()).info("Hello, world!");
+    new PrintLib().log(new TestMain(),"Hello, world!");
   }
 }
